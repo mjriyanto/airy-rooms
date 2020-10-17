@@ -33,10 +33,10 @@ p {
 }
 
 .text-primary {
-  color: #00B0F0;
-  text-shadow: 3px 3px #FECB2A;
-  /* color: #FECB2A;
-  text-shadow: 3px 3px #00B0F0; */
+  /* color: #00B0F0; */
+  /* text-shadow: 3px 3px #FECB2A; */
+  color: #FECB2A;
+  /* text-shadow: 3px 3px #00B0F0; */
 }
 
 .lead {
@@ -70,6 +70,20 @@ p {
 .bg-light {
   background: #fff;
   color: #625E5E;
+}
+
+.bg-blue {
+  background: #00B0F0;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #fff;
+  color:  #00B0F0;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navbar */
@@ -153,4 +167,24 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #FECB2A;
+  color: #625E5E;
+  padding: 5px;
 }
