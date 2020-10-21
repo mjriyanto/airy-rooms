@@ -67,6 +67,10 @@ p {
   background: #00b8f0;
 }
 
+.btn-md {
+  font-size: 16px;
+}
+
 .bg-light {
   background: #fff;
   color: #625E5E;
@@ -235,10 +239,37 @@ p {
   margin-bottom: 40px;
 }
 
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #DDD solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #00B0F0;
+}
+
 /* Footer */
 #main-footer {
   text-align: center;
-  background: #FFFFFF;
+  background: #F4F4F4;
   color: #625E5E;
   padding: 5px;
 }
